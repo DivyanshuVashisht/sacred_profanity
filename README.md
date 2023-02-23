@@ -20,13 +20,13 @@ Easy to customize, as you can use a wordlist with your own bad words that you'd 
                            [-o OUTPUT_FILE]
                            [-j JOIN]`
 
-> Simple execution (no custom profane wordlist provided)
-`$ python3 sacred_profanity.py -f test.txt`
+## Simple Execution (no custom profane wordlist provided)
+> `$ python3 sacred_profanity.py -f test.txt`
 The output contains the sentences, their censored version and the degree of profanity. The output is saved in output.csv file.
 
-> Execution with profane words list
-`$ python3 sacred_profanity.py -f test.txt -cwf profane_words_list.txt -j 1 `
+## Execution with profane words list
+> `$ python3 sacred_profanity.py -f test.txt -cwf profane_words_list.txt -j 1 `
 You can replace 1 with 0 if you want to use better_profanity's default wordlist, 1 is to use only your own wordlist and 2 is to use your own wordlist in conjunction with the default wordlist.
 
-> You can also define the name of the output file using the `-o` flag.
+>>Note: You can also define the name of the output file using the `-o` flag.
 
